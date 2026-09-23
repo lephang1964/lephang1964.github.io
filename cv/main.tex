@@ -1,1 +1,54 @@
 %this is my cv in latex
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=blue
+}
+
+\setlist[itemize]{
+  noitemsep,
+  topsep=2pt
+}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{Your Name}}\\
+  \vspace{4pt}
+  your.email@example.com \quad
+  \href{https://github.com/your-username}{github.com/your-username}
+\end{center}
+
+\section*{Education}
+
+\textbf{Your University} \hfill 2022--2026\\
+Bachelor of Computer Science
+
+\section*{Experience}
+
+\textbf{Software Developer Intern} \hfill Summer 2025
+
+\begin{itemize}
+  \item Built a responsive personal website using HTML and CSS.
+  \item Improved the user experience of an internal web application.
+\end{itemize}
+
+\section*{Projects}
+
+\textbf{Personal Website}
+
+\begin{itemize}
+  \item Designed and deployed a personal website using GitHub Pages.
+  \item Maintained the CV source code in LaTeX.
+\end{itemize}
+
+\section*{Skills}
+
+HTML, CSS, JavaScript, Python, LaTeX, Git
+
+\end{document}

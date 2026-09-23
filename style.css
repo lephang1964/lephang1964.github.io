@@ -115,7 +115,7 @@ h1 {
 }
 
 .content-section > p {
-  max-width: 650px;
+  max-width: 95%;
   color: var(--muted);
 }
 
